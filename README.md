@@ -4,11 +4,8 @@ CLI tool for [watchcat.io](https://watchcat.io).
 
 ## Installation and Usage
 
-To install the package, use your preferred package manager:
-
 ```shell
-npm install @watchcathq/cli
-yarn add @watchcathq/cli
+npm install @watchcathq/cli --save-dev
 ```
 
 ## Upload Source Maps
