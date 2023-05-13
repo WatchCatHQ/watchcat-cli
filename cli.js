@@ -23,7 +23,7 @@ program
     .description('Uploads sourcemaps from given directory')
     .action(async (app_token, dir) => {
         const url = program.opts().url
-        const maps = globSync(`${dir}/**/*.js.map`);
+        const maps = globSync(`${dir}/**/*.{js,cjs,mjs}.map`);
 
         if (maps.length === 0) {
             console.warn(`No maps in ${dir}`);
