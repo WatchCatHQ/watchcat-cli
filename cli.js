@@ -15,7 +15,7 @@ program
     .version(packageJson.version);
 
 program
-    .option('-u, --url <string>', 'API base url', 'http://api.watchcat.io')
+    .option('-u, --url <string>', 'API base url', 'https://api.watchcat.io')
 
 program
     .command('sourcemap')
